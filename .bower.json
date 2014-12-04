@@ -1,0 +1,35 @@
+{
+  "name": "angular-apostle",
+  "version": "0.0.11",
+  "authors": "Jasper Krielaars",
+  "description": "Core module for Apostle functionality",
+  "main": [
+    "apostle.js"
+  ],
+  "dependencies": {
+    "restangular": "~1.4.0",
+    "angular-base64": "~2.0.1"
+  },
+  "keywords": [
+    "Apostle"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.apostle.nl",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "0.0.11",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.11",
+    "commit": "11fedd8df18dbcf4abf22ef16db02271e179466e"
+  },
+  "_source": "file:///Users/Jasper/Sites/apostleModules/angular-apostle/.git",
+  "_target": "*",
+  "_originalSource": "file:///Users/Jasper/Sites/apostleModules/angular-apostle/.git"
+}
