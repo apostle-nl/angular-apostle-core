@@ -1,6 +1,6 @@
 {
-  "name": "angular-apostle",
-  "version": "0.0.11",
+  "name": "angular-apostle-core",
+  "version": "0.0.0",
   "authors": "Jasper Krielaars",
   "description": "Core module for Apostle functionality",
   "main": [
@@ -23,13 +23,7 @@
     "test",
     "tests"
   ],
-  "_release": "0.0.11",
-  "_resolution": {
-    "type": "version",
-    "tag": "v0.0.11",
-    "commit": "11fedd8df18dbcf4abf22ef16db02271e179466e"
-  },
-  "_source": "file:///Users/Jasper/Sites/apostleModules/angular-apostle/.git",
+  "_source": "git://github.com/apostle-nl/angular-apostle-core.git",
   "_target": "*",
-  "_originalSource": "file:///Users/Jasper/Sites/apostleModules/angular-apostle/.git"
+  "_originalSource": "angular-apostle-core"
 }
