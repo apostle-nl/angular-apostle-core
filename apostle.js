@@ -42,7 +42,7 @@ angular.module('apostle').provider('$apostle', function(){
 	    return this;
 	  },
 
-		$get: ['$log', '$rootScope', 'Restangular', 'ApostleUtilService','$base64', '$q', '$cacheFactory', '$filter', '$cookieStore', '$http', '$state', function($log, $rootScope, Restangular, ApostleUtilService, $base64, $q, $cacheFactory, $filter, $cookieStore, $http, $state){
+		$get: ['$log', '$rootScope', 'Restangular', 'ApostleUtilService','$base64', '$q', '$cacheFactory', '$filter', '$cookieStore', '$http', function($log, $rootScope, Restangular, ApostleUtilService, $base64, $q, $cacheFactory, $filter, $cookieStore, $http){
 
 			var connectionCache = $cacheFactory('connections');
 			var companyCache    = $cacheFactory('companies');
