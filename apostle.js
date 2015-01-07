@@ -544,7 +544,11 @@ angular.module('apostle').provider('$apostle', function(){
 
 	  		// saves a user for a specific company
 	  		createUser: function(user, company){
-	  			return Restangular.one('users').post('',user,{company:ApostleUtilService.extractId(company)});
+	  			if(company){
+						return Restangular.one('users').post('',user,{company:ApostleUtilService.extractId(company)});
+	  			}else{
+						return Restangular.one('users').post('',user);
+	  			}
 	  		},
 
 	  		// deletes a user
